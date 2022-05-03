@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/small_desert_islands_1024/small_desert_islands_1024.unity
+- path: Assets/Scenes/Debug_scene/Island.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
