@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Debug/MinuteIsland.unity
+- path: Assets/Scenes/small_islands_1024/small_islands_1024.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
