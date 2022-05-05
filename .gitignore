@@ -1,2 +1,5 @@
+Library\*
 Library/*
+Library
+
 !.gitignore

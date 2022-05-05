@@ -10,7 +10,7 @@ public class SC_MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MainMenuButton();
+       
     }
 
     public void PlayNowButton()
@@ -26,11 +26,11 @@ public class SC_MainMenu : MonoBehaviour
         CreditsMenu.SetActive(true);
     }
 
-    public void MainMenuButton()
+    public void BackButton()
     {
-        // Show Main Menu
-        MainMenu.SetActive(true);
-        CreditsMenu.SetActive(false);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main_Menu");
+        Debug.Log("Sent to main menu");
+
     }
 
     public void QuitButton()
