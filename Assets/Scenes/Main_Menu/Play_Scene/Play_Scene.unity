@@ -952,7 +952,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1015062377}
         m_TargetAssemblyTypeName: SC_MainMenu, Assembly-CSharp
-        m_MethodName: MainMenuButton
+        m_MethodName: BackButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1332,7 +1332,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1487, y: 836.43744}
+  m_SizeDelta: {x: 977, y: 549.56244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1703377247
 MonoBehaviour:
