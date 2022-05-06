@@ -667,13 +667,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711858179}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72338b1f450f8ff4b8a3234fc5e89e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MainMenu: {fileID: 0}
-  CreditsMenu: {fileID: 0}
+  CreditsMenu: {fileID: 711858179}
 --- !u!114 &711858182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,7 +729,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &711858183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,7 +1181,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &1914854886
 MonoBehaviour:
   m_ObjectHideFlags: 0

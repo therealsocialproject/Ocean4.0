@@ -17,13 +17,14 @@ public class SC_MainMenu : MonoBehaviour
     {
         // Play Now Button has been pressed.
         UnityEngine.SceneManagement.SceneManager.LoadScene("Play_Scene");
+		Debug.Log("Sent to Play_Scene");
     }
 
     public void CreditsButton()
     {
         // Show Credits Menu
-        MainMenu.SetActive(false);
-        CreditsMenu.SetActive(true);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Credits_Scene");
+		Debug.Log("Sent to Credits_Scene");
     }
 
     public void BackButton()
@@ -42,5 +43,6 @@ public class SC_MainMenu : MonoBehaviour
     public void DebugLevelButton()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Debug_Scene");
+		Debug.Log("Sent to Debug_Scene");
     }
 }
