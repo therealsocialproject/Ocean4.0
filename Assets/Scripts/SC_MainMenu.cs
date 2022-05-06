@@ -33,6 +33,13 @@ public class SC_MainMenu : MonoBehaviour
         Debug.Log("Sent to main menu");
 
     }
+	
+	    public void SkirmishGameButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Skirmish_Menu");
+        Debug.Log("Sent to Skirmish Game Menu");
+
+    }
 
     public void QuitButton()
     {

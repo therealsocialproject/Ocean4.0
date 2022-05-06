@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main_Menu/Credits_Scene/Credits_Scene.unity
     guid: 4b3313f83ccb049099d48409f2bd6501
+  - enabled: 1
+    path: Assets/Scenes/Main_Menu/Skirmish_Menu/Skirmish_Menu.unity
+    guid: 7bfd2c65631bf4844a91dd164df96de3
   m_configObjects: {}
