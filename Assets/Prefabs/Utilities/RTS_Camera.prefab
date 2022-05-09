@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7157736600101533390}
   - component: {fileID: 7297976205793272356}
   - component: {fileID: 1553349815163204692}
+  - component: {fileID: 7871626184963998560}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -143,6 +144,19 @@ MonoBehaviour:
   rotateLeftKey: 122
   useMouseRotation: 1
   mouseRotationKey: 324
+--- !u!114 &7871626184963998560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43984395126316721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 534f484e902984d29b2f806ddfe3efeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 7157736600101533390}
 --- !u!1 &1739688618006594002
 GameObject:
   m_ObjectHideFlags: 0
