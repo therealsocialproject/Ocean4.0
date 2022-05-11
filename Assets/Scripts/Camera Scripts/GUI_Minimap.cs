@@ -8,12 +8,12 @@ public class GUI_Minimap : MonoBehaviour
     
     void OnGUI () 
     {
-        if (GUI.Button (new Rect (10,10, 100, 50), icon)) 
+        if (GUI.Button (new Rect (Screen.width - 100, 0, 100, 70), icon)) 
         {
             print ("Expand Mini-Map");
         }
     
-        if (GUI.Button (new Rect (10,70, 100, 20), "Mini-Map")) 
+        if (GUI.Button (new Rect (Screen.width - 100, 70, 100, 50), "Mini-Map")) 
         {
             print ("Expand Mini-Map");
         }

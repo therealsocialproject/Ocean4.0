@@ -178,8 +178,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\UI\RunModal.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\Views\PendingChanges\FilesFilterPatternsMenuBuilder.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\UI\UnityPlasticTimer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\ProjectWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\UI\SortOrderComparer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\ProjectWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\Views\Branch\BranchesTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\CollabPlugin.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.15\Editor\PlasticSCM\UI\Tree\DrawTreeViewEmptyState.cs" />
