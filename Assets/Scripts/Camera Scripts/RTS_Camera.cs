@@ -32,11 +32,11 @@ namespace RTS_Cam
         #region Movement
 
         public float keyboardMovementSpeed = 5f; //speed with keyboard movement
-        public float screenEdgeMovementSpeed = 3f; //spee with screen edge movement
+        public float screenEdgeMovementSpeed = 5f; //spee with screen edge movement
         public float followingSpeed = 5f; //speed when following a target
-        public float rotationSped = 3f;
-        public float panningSpeed = 10f;
-        public float mouseRotationSpeed = 10f;
+        public float rotationSped = 5f;
+        public float panningSpeed = 5f;
+        public float mouseRotationSpeed = 5f;
 
         #endregion
 
@@ -45,11 +45,11 @@ namespace RTS_Cam
         public bool autoHeight = true;
         public LayerMask groundMask = -1; //layermask of ground or other objects that affect height
 
-        public float maxHeight = 10f; //maximal height
+        public float maxHeight = 500f; //maximal height
         public float minHeight = 15f; //minimnal height
         public float heightDampening = 5f;
-        public float keyboardZoomingSensitivity = 2f;
-        public float scrollWheelZoomingSensitivity = 25f;
+        public float keyboardZoomingSensitivity = 10f;
+        public float scrollWheelZoomingSensitivity = 10f;
 
         private float zoomPos = 0; //value in range (0, 1) used as t in Matf.Lerp
 
@@ -282,8 +282,8 @@ namespace RTS_Cam
             if (useKeyboardRotation)
                 transform.Rotate(Vector3.up, RotationDirection * Time.deltaTime * rotationSped, Space.World);
 
-            if (useMouseRotation && Input.GetKey(mouseRotationKey))
-                m_Transform.Rotate(Vector3.down, -MouseAxis.x * Time.deltaTime * mouseRotationSpeed, Space.World);
+           /* if (useMouseRotation && Input.GetKey(mouseRotationKey))
+                m_Transform.Rotate(Vector3.down, -MouseAxis.x * Time.deltaTime * mouseRotationSpeed, Space.World);*/
         }
 
         /// <summary>
@@ -340,5 +340,9 @@ namespace RTS_Cam
         }
 
         #endregion
+
+      
+
+
     }
 }
